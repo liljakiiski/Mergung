@@ -1,0 +1,111 @@
+(session freerouting.ses
+  (base_design freerouting.dsn)
+  (placement
+    (resolution um 10)
+    (component Resistor_SMD:R_0402_1005Metric
+      (place Rfbt1 1115000 -695000 front 0)
+      (place Rt2 612850 -656924 front 0)
+      (place Rvdda1 634600 -365000 front 0)
+      (place Rt1 644600 -350000 front 0)
+    )
+    (component Resistor_SMD:R_0603_1608Metric
+      (place Rpg2 654500 -721924 front 0)
+      (place Rfbb1 1115000 -665000 front 0)
+      (place Rconfig2 602750 -641924 front 0)
+      (place Rpg1 705000 -435000 front 0)
+      (place Rcomp2 622750 -621924 front 0)
+      (place Rcomp1 659950 -329100 front 0)
+      (place Rconfig1 626350 -385000 front 0)
+    )
+    (component Capacitor_SMD:C_0402_1005Metric
+      (place Cvdda2 617750 -671924 front 0)
+      (place Cboot2 707700 -691924 front 0)
+      (place Cvdda1 609600 -405000 front 0)
+      (place Cboot1 705000 -465000 front 0)
+    )
+    (component Capacitor_SMD:C_0805_2012Metric
+      (place Ccomp4 637250 -601924 front 0)
+      (place Ccomp1 660100 -274900 front 0)
+      (place Ccomp2 660100 -305000 front 0)
+    )
+    (component Capacitor_SMD:C_1210_3225Metric
+      (place Cin3 520000 -615000 front 0)
+      (place Cin1 520250 -357500 front 0)
+      (place Cin2 520250 -400000 front 0)
+      (place Cvcc1 640250 -445000 front 0)
+      (place Cvcc2 637750 -696924 front 0)
+    )
+    (component "Wire Holes:Vout Holed"
+      (place Con2 1275000 -395000 front 0)
+      (place Con3 1275000 -525000 front 0)
+    )
+    (component "Package_TO_SOT_SMD:TO-252-2"
+      (place M4 814150 -690250 front 0)
+    )
+    (component Capacitor_SMD:C_1206_3216Metric
+      (place Cout7 1180250 -688500 front 0)
+      (place Cout2 1175250 -373000 front 0)
+      (place Cout6 1180250 -650000 front 0)
+      (place Cout3 1175250 -410000 front 0)
+      (place Cout4 1175250 -446500 front 0)
+      (place Cout5 1175250 -485000 front 0)
+      (place Cout1 1175250 -335000 front 0)
+    )
+    (component "Package_TO_SOT_SMD:TDSON-8-1"
+      (place M1 800950 -346950 front 0)
+      (place M2 800950 -414050 front 0)
+      (place M3 783500 -610250 front 0)
+    )
+    (component Resistor_SMD:R_1206_3216Metric
+      (place Rsense1 1115000 -410000 front 0)
+      (place Rsense2 1115125 -640000 front 0)
+    )
+    (component "Inductor_SMD:L_Coilcraft_MSS1210-XXX"
+      (place L2 940000 -665000 front 0)
+    )
+    (component "Wire Holes:Vin Holes"
+      (place Con1 470000 -425000 front 0)
+    )
+    (component Inductor_SMD:L_Bourns_SRP1245A
+      (place L1 925000 -385000 front 0)
+    )
+    (component LM5149:VQFN24_RGY_TEX
+      (place U1 700000 -375000 front 0)
+      (place U2 690000 -645000 front 0)
+    )
+    (component Capacitor_SMD:C_0603_1608Metric
+      (place Ccomp3 647750 -581924 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version 9.0.7)
+    )
+    (library_out 
+      (padstack "Via[0-1]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_600:300_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+    )
+  )
+)
