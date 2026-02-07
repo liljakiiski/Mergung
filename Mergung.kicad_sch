@@ -10024,7 +10024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Wire Holes:Vout Holed"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
 			(at 257.81 156.21 0)
 			(effects
 				(font
@@ -10227,7 +10227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
 			(at 43.18 85.09 0)
 			(effects
 				(font
@@ -11280,7 +11280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Wire Holes:Vout Holed"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
 			(at 266.7 93.98 0)
 			(effects
 				(font
