@@ -7650,7 +7650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 33.02 92.71 0)
 			(effects
 				(font
